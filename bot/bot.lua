@@ -76,19 +76,19 @@ function save_config( )
 end
 
 function create_config( )
-	io.write('\n\27[1;33mادخل ايدي حسابك لتصبح مطور 👇 \27[0;39;49m\n')
+	io.write('\n\27[1;33m 1156269882\27[0;39;49m\n')
 	local SUDO = tonumber(io.read())
 if not tostring(SUDO):match('%d+') then
     SUDO = 60809019
   end
-  	io.write('\n\27[1;33mارسل توكن البوت الان 👇 \27[0;39;49m\n')
+  	io.write('\n\27[1;33m 1667518463:AAG6zAwBCFL_v0MVvlvw0gKZNh-E6rTsS6M\27[0;39;49m\n')
 	local token = io.read()
-	 	io.write('\n\27[1;33mادخل الان اسم البوت الذي تريده 👇 \27[0;39;49m\n')
+	 	io.write('\n\27[1;33m اولفير\27[0;39;49m\n')
 	local botname = io.read()
 	if botname =="" then
   botname = "زعيم"
 end
-io.write('\n\27[1;33mادخل معرف المطور 👇 \27[0;39;49m\n')
+io.write('\n\27[1;33m @sltn9192\27[0;39;49m\n')
 	local sudouser = io.read()
 	if sudouser =="" then
   sudouser = "@TH3BOSS"
